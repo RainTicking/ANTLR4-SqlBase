@@ -1,4 +1,4 @@
-package com.tencent;
+package com.ganglee;
 
 public class MyVisitor extends SqlBaseBaseVisitor<String>{
 

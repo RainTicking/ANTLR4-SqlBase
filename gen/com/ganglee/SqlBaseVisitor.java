@@ -1,5 +1,5 @@
 // Generated from D:/Development/AntlrTest/src\SqlBase.g4 by ANTLR 4.5.3
-package com.tencent;
+package com.ganglee;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

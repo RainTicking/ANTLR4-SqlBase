@@ -1,11 +1,11 @@
-package com.tencent;
+package com.ganglee;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 
 public class ParserDriver {
     public static void main(String[] args) {
-        String query = "SELECT col FROM TBL";
+        String query = "SELECT name FROM student where age > 18";
         SqlBaseLexer lexer = new SqlBaseLexer(new ANTLRInputStream(query.toUpperCase()));
         SqlBaseParser parser = new SqlBaseParser(new CommonTokenStream(lexer));
         MyVisitor visitor = new MyVisitor();
